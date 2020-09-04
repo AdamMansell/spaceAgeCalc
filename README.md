@@ -20,22 +20,22 @@ Open your prefered internet browser and paste the file path to view the file.
 (If using mac, after pasting link in search bar, check for "file" dropdown option before hitting return).
 
 ## Specs
-Spec: 
+Spec: "Should take users Earth Age & return it in Mercury years"
 - Input: 
 - Output: <br>
 ________________________________
 
-Spec: 
+Spec: "Should take users Earth Age & return it in Venus years"
 - Input:
 - Output: <br>
 ________________________________
 
-Spec: 
+Spec: "Should take users Earth Age & return it in Mars years"
 - Input: 
 - Output: <br>
 ________________________________
 
-Spec: 
+Spec: "Should take users Earth Age & return it in Jupiter years"
 - Input: 
 - Output: <br>
 ________________________________
