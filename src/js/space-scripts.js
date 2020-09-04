@@ -56,4 +56,14 @@ export class Human {
     exercise == "no" ? lifeExpec -= 8 : lifeExpec;
     return lifeExpec;
   }
+  marsExpectCalc() {
+    let lifeExpec = 47;
+    let sex = this.sex;
+    let smoke = this.smoke;
+    let exercise = this.exercise;
+    sex == "male" ? lifeExpec -= 3 : lifeExpec;
+    smoke == "smoker" ? lifeExpec -= 5 : lifeExpec;
+    exercise == "no" ? lifeExpec -= 3 : lifeExpec;
+    return lifeExpec;
+  }
 }

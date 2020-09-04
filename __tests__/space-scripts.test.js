@@ -112,4 +112,13 @@ let human
     let exercise = human.exercise;
     expect(human.venusExpectCalc(sex, smoke, exercise)).toEqual(137);
   });
+
+  // Mars Life Expecs
+
+  test("Should take Earth info of user who's female and return her average life expectancy on Mars.", () => {
+    let sex = human.sex;
+    let smoke = human.smoke;
+    let exercise = human.exercise;
+    expect(human.marsExpectCalc(sex, smoke, exercise)).toEqual(48);
+  });
 });

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1599253684292" clover="3.2.0">
-  <project timestamp="1599253684292" name="All files">
-    <metrics statements="40" coveredstatements="40" conditionals="18" coveredconditionals="18" methods="8" coveredmethods="8" elements="66" coveredelements="66" complexity="0" loc="40" ncloc="40" packages="1" files="1" classes="1"/>
+<coverage generated="1599254240177" clover="3.2.0">
+  <project timestamp="1599254240177" name="All files">
+    <metrics statements="48" coveredstatements="48" conditionals="24" coveredconditionals="21" methods="9" coveredmethods="9" elements="81" coveredelements="78" complexity="0" loc="48" ncloc="48" packages="1" files="1" classes="1"/>
     <file name="space-scripts.js" path="/Users/adammansell/Desktop/Epicodus Projects/spaceAgeCalc/src/js/space-scripts.js">
-      <metrics statements="40" coveredstatements="40" conditionals="18" coveredconditionals="18" methods="8" coveredmethods="8"/>
-      <line num="4" count="25" type="stmt"/>
-      <line num="5" count="25" type="stmt"/>
-      <line num="6" count="25" type="stmt"/>
-      <line num="7" count="25" type="stmt"/>
+      <metrics statements="48" coveredstatements="48" conditionals="24" coveredconditionals="21" methods="9" coveredmethods="9"/>
+      <line num="4" count="26" type="stmt"/>
+      <line num="5" count="26" type="stmt"/>
+      <line num="6" count="26" type="stmt"/>
+      <line num="7" count="26" type="stmt"/>
       <line num="10" count="1" type="stmt"/>
       <line num="11" count="1" type="stmt"/>
       <line num="12" count="1" type="stmt"/>
@@ -44,6 +44,14 @@
       <line num="55" count="4" type="cond" truecount="2" falsecount="0"/>
       <line num="56" count="4" type="cond" truecount="2" falsecount="0"/>
       <line num="57" count="4" type="stmt"/>
+      <line num="60" count="1" type="stmt"/>
+      <line num="61" count="1" type="stmt"/>
+      <line num="62" count="1" type="stmt"/>
+      <line num="63" count="1" type="stmt"/>
+      <line num="64" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="65" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="66" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="67" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
