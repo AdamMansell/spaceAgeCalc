@@ -59,7 +59,7 @@ describe('Human', () => {
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
-    expect(human.earthExpectCalc(age, sex, smoke, exercise)).toEqual(85);
+    expect(human.earthExpectCalc(age, sex, smoke, exercise)).toEqual(6);
   });
 
   // Mercury Life Expecs 
