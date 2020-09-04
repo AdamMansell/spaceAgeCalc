@@ -128,4 +128,11 @@ let human
     let exercise = human.exercise;
     expect(human.marsExpectCalc(sex, smoke, exercise)).toEqual(44);
   });
+  test("Should take Earth info of user who smokes and return their average life expectancy on Mars.", () => {
+    human = new Human('21', 'female', 'smoker', 'yes');
+    let sex = human.sex;
+    let smoke = human.smoke;
+    let exercise = human.exercise;
+    expect(human.marsExpectCalc(sex, smoke, exercise)).toEqual(41);
+  });
 });
