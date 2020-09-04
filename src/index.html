@@ -10,15 +10,22 @@
         <label for="age">Enter your Earth Age: </label>
         <input id="age" type="text"><br>
         <label for="sex">Do you identify as: </label>
-        <input id="sex" type="text"><br>
-        <label for="smoke">Do you Smoke: </label>
-        <input id="smoke" type="text"><br>
+        <select id="sex" class="form-control">
+          <option name="female" value="female">Female</option>
+          <option name="male" value="male">Male</option>
+        </select><br>
+        <label for="smoker">Do you Smoke: </label>
+        <select id="smoker" class="form-control">
+          <option name="smoke" value="smoke">Yes I smoke</option>
+          <option name="non-smoke" value="non-smoke">No I don't smoke</option>
+        </select><br>
         <label for="exercise">Do you Exercise: </label>
-        <input id="exercise" type="text"><br>
+        <select id="exercise" class="form-control">
+          <option name="exercise-yes" value="yes">Yes I exercise</option>
+          <option name="exercise-no" value="no">No I don't exercise</option>
+        </select><br>
         <button type="submit">Calculate.</button>
       </form>
     </div>
-
-
   </body>
 </html>
