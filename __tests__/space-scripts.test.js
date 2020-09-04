@@ -89,6 +89,6 @@ let human
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
-    expect(human.venusExpectCalc(sex, smoke, exercise)).toEqual(146);
+    expect(human.venusExpectCalc(sex, smoke, exercise)).toEqual(145);
   });
 });

@@ -29,11 +29,8 @@ export class Human {
   earthExpectCalc() {
     let lifeExpec = 90;
     let sex = this.sex;
-    console.log(sex);
     let smoke = this.smoke;
-    console.log(smoke);
     let exercise = this.exercise;
-    console.log(exercise);
     sex == "male" ? lifeExpec -= 6 : lifeExpec;
     smoke == "smoker" ? lifeExpec -= 9 : lifeExpec;
     exercise == "no" ? lifeExpec -= 5 : lifeExpec;
@@ -42,11 +39,8 @@ export class Human {
   mercuryExpectCalc() {
     let lifeExpec = 375;
     let sex = this.sex;
-    console.log(sex);
     let smoke = this.smoke;
-    console.log(smoke);
     let exercise = this.exercise;
-    console.log(exercise);
     sex == "male" ? lifeExpec -= 25 : lifeExpec;
     smoke == "smoker" ? lifeExpec -= 38 : lifeExpec;
     exercise == "no" ? lifeExpec -= 21 : lifeExpec;
@@ -55,11 +49,8 @@ export class Human {
   venusExpectCalc() {
     let lifeExpec = 145;
     let sex = this.sex;
-    console.log(sex);
     let smoke = this.smoke;
-    console.log(smoke);
     let exercise = this.exercise;
-    console.log(exercise);
     sex == "male" ? lifeExpec -= 10 : lifeExpec;
     smoke == "smoker" ? lifeExpec -= 15 : lifeExpec;
     exercise == "no" ? lifeExpec -= 8 : lifeExpec;
