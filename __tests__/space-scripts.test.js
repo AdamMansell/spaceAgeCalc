@@ -98,7 +98,7 @@ describe('Human', () => {
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
-    expect(human.mercuryExpectCalc(age, sex, smoke, exercise)).toEqual(6);
+    expect(human.mercuryExpectCalc(age, sex, smoke, exercise)).toEqual(0);
   });
 
   // Venus Life Expecs

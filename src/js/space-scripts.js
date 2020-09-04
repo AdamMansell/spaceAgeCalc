@@ -44,13 +44,19 @@ export class Human {
   }
   mercuryExpectCalc() {
     let lifeExpec = 375;
+    let age = Math.round(this.age / .24);
     let sex = this.sex;
     let smoke = this.smoke;
     let exercise = this.exercise;
-    sex == "male" ? lifeExpec -= 25 : lifeExpec;
-    smoke == "smoker" ? lifeExpec -= 38 : lifeExpec;
-    exercise == "don't workout" ? lifeExpec -= 21 : lifeExpec;
-    return lifeExpec;
+    if (age > 375) {
+      let newLife = age - lifeExpec;
+      return newLife
+    } else {
+      sex == "male" ? lifeExpec -= 25 : lifeExpec;
+      smoke == "smoker" ? lifeExpec -= 38 : lifeExpec;
+      exercise == "don't workout" ? lifeExpec -= 21 : lifeExpec;
+      return lifeExpec;
+    }
   }
   venusExpectCalc() {
     let lifeExpec = 145;
