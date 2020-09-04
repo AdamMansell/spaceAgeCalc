@@ -22,6 +22,7 @@ describe('Human', () => {
     let age = human.age;
     expect(human.jupiterCalc(age)).toEqual(2);
   });
+  
 
   // Earth Life Expecs
 
