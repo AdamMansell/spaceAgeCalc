@@ -12,5 +12,19 @@ $(document).ready(function () {
     const sex = $('#sex').val();
     const smoke = $('#smoker').val();
     const exercise = $('#exercise').val();
+
+    let human = new Human(age, sex, smoke, exercise);
+
+    let mercuryAge = mercuryCalc(human, age);
+    let VenusAge = venusCalc(human, age);
+    let marsAge = marsCalc(human, age);
+    let jupiterAge = jupiterCalc(human, age);
+
+    let earthExpect = earthExpectCalc(human);
+    let mercuryExpect = mercuryExpectCalc(human);
+    let venusExpect = venusExpectCalc(human);
+    let marsExpect = marsExpectCalc(human);
+    let jupiterExpect = jupiterExpectCalc(human);
+    
   });
 });
