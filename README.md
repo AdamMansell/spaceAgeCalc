@@ -61,7 +61,7 @@ ________________________________
 - Output: "85"<br>
 ________________________________
 
-## Mercury Expecatncy Specs
+## Mercury Expectancy Specs
 1 Spec: "Should take Earth info of user who's female and return her average life expectancy on Mercury."
 - Input: "21, female, non-smoker, yes"
 - Output: "375"<br>
@@ -82,7 +82,7 @@ ________________________________
 - Output: "354"<br>
 ________________________________
 
-## Venus Expecatncy Specs
+## Venus Expectancy Specs
 1 Spec: "Should take Earth info of user who's female and return her average life expectancy on Venus."
 - Input: "21, female, non-smoker, yes"
 - Output: "145"<br>
@@ -103,7 +103,7 @@ ________________________________
 - Output: "137"<br>
 ________________________________
 
-## Mars Expecatncy Specs
+## Mars Expectancy Specs
 1 Spec: "Should take Earth info of user who's female and return her average life expectancy on Mars."
 - Input: "21, female, non-smoker, yes"
 - Output: "47"<br>
@@ -124,7 +124,7 @@ ________________________________
 - Output: "44"<br>
 ________________________________
 
-## Jupiter Expecatncy Specs
+## Jupiter Expectancy Specs
 1 Spec: "Should take Earth info of user who's female and return her average life expectancy on Jupiter."
 - Input: "21, female, non-smoker, yes"
 - Output: "7"<br>
