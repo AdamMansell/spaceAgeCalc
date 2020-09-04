@@ -22,7 +22,14 @@ let human
     let age = human.age;
     expect(human.jupiterCalc(age)).toEqual(2);
   });
-  test("Should take user's Earth info and return their average life expectancy on Earth", () => {
+  test("Should take female user's Earth info and return her average life expectancy on Earth", () => {
+    let sex = human.sex;
+    let smoke = human.smoke;
+    let exercise = human.exercise;
+    expect(human.earthExpectCalc(sex, smoke, exercise)).toEqual(90);
+  });
+  test("Should take female user's Earth info and return her average life expectancy on Earth", () => {
+    human = new Human('21', 'male', 'non-smoker', 'yes');
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
