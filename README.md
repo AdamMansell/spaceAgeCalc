@@ -40,9 +40,29 @@ Spec: "Should take users Earth Age & return it in Jupiter years"
 - Output: "1"<br>
 ________________________________
 
-Spec: 
-- Input: 
-- Output: <br>
+Spec: "Should take user's Earth info and return their average life expectancy on Earth."
+- Input: "female, non-smoker, exercises"
+- Output: "90"<br>
+________________________________
+
+Spec: "Should take user's Earth info and return their average life expectancy on Mercury."
+- Input: "female, non-smoker, exercises"
+- Output: "375"<br>
+________________________________
+
+Spec: "Should take user's Earth info and return their average life expectancy on Venus."
+- Input: "female, non-smoker, exercises"
+- Output: "145"<br>
+________________________________
+
+Spec: "Should take user's Earth info and return their average life expectancy on Mars."
+- Input: "female, non-smoker, exercises"
+- Output: "47"<br>
+________________________________
+
+Spec: "Should take user's Earth info and return their average life expectancy on Jupiter."
+- Input: "female, non-smoker, exercises"
+- Output: "7"<br>
 ________________________________
 
 ## Technologies Used
