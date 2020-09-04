@@ -12,7 +12,7 @@ let human
   });
   test('Should take users Earth Age & return it in Venus years', () => {
     let age = human.age;
-    expect(human.venusCalc(age)).toEqual(30);
+    expect(human.venusCalc(age)).toEqual(34);
   });
 
   
