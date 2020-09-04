@@ -1,4 +1,4 @@
-import { Human } from '../src/js/blscript.js';
+import { Human } from '../src/js/space-scripts.js';
 describe('Human', () => {
 let human
 
@@ -7,9 +7,8 @@ let human
   });
 
   test('Should take users Earth Age & return it in Mercury years', () => {
-    const allLines = (haiku.line1, haiku.line2, haiku.line3);
-    const equal = ('hello', 'hi', 'hola');
-    expect(allLines).toEqual(equal);
+    let age = human.age;
+    expect(human.mercuryCalc(age)).toEqual(80);
   });
 
   

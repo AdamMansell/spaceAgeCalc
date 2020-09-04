@@ -6,4 +6,9 @@ export class Human {
     this.smoke = smoke;
     this.exercise = exercise;
   }
+  mercuryCalc(age) {
+    let earthAge = parseInt(this.age);
+    let mercuryAge = Math.round(earthAge / .24);
+    return mercuryAge;
+  }
 }

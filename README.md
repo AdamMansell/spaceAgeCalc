@@ -22,7 +22,7 @@ Open your prefered internet browser and paste the file path to view the file.
 ## Specs
 Spec: "Should take users Earth Age & return it in Mercury years"
 - Input: "21"
-- Output: "87"<br>
+- Output: "88"<br>
 ________________________________
 
 Spec: "Should take users Earth Age & return it in Venus years"
