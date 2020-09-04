@@ -14,18 +14,22 @@
           <option name="female" value="female">Female</option>
           <option name="male" value="male">Male</option>
         </select><br>
-        <label for="smoker">Do you Smoke: </label>
-        <select id="smoker" class="form-control">
-          <option name="smoke" value="smoke">Yes I smoke</option>
-          <option name="non-smoke" value="non-smoke">No I don't smoke</option>
+        <label for="smoke">Do you Smoke: </label>
+        <select id="smoke" class="form-control">
+          <option name="smoke" value="smoker">Yes I smoke</option>
+          <option name="non-smoke" value="non-smoker">No I don't smoke</option>
         </select><br>
         <label for="exercise">Do you Exercise: </label>
         <select id="exercise" class="form-control">
-          <option name="exercise-yes" value="yes">Yes I exercise</option>
-          <option name="exercise-no" value="no">No I don't exercise</option>
+          <option name="exercise-yes" value="workout">Yes I exercise</option>
+          <option name="exercise-no" value="don't workout">No I don't exercise</option>
         </select><br>
         <button type="submit">Calculate.</button>
       </form>
+    </div>
+    <div id="resultDiv">
+      <h2 id="resultH2"></h2>
+      <p id="resultPtag"></p>
     </div>
   </body>
 </html>

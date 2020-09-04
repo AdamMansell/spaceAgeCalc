@@ -3,7 +3,7 @@ describe('Human', () => {
   let human
 
   beforeEach(() => {
-    human = new Human('21', 'female', 'non-smoker', 'yes');
+    human = new Human('21', 'female', 'non-smoker', 'workout');
   });
 
   test('Should take users Earth Age & return it in Mercury years', () => {
@@ -32,21 +32,21 @@ describe('Human', () => {
     expect(human.earthExpectCalc(sex, smoke, exercise)).toEqual(90);
   });
   test("Should take female user's Earth info and return her average life expectancy on Earth", () => {
-    human = new Human('21', 'male', 'non-smoker', 'yes');
+    human = new Human('21', 'male', 'non-smoker', 'workout');
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
     expect(human.earthExpectCalc(sex, smoke, exercise)).toEqual(84);
   });
   test("Should take Earth info of user who smokes and return their average life expectancy on Earth.", () => {
-    human = new Human('21', 'female', 'smoker', 'yes');
+    human = new Human('21', 'female', 'smoker', 'workout');
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
     expect(human.earthExpectCalc(sex, smoke, exercise)).toEqual(81);
   });
   test("Should take Earth info of user who doesn't exercise and return their average life expectancy on Earth.", () => {
-    human = new Human('21', 'female', 'non-smoker', 'no');
+    human = new Human('21', 'female', 'non-smoker', "don't workout");
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
@@ -62,21 +62,21 @@ describe('Human', () => {
     expect(human.mercuryExpectCalc(sex, smoke, exercise)).toEqual(375);
   });
   test("Should take Earth info of user who's male and return his average life expectancy on Mercury.", () => {
-    human = new Human('21', 'male', 'non-smoker', 'yes');
+    human = new Human('21', 'male', 'non-smoker', 'workout');
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
     expect(human.mercuryExpectCalc(sex, smoke, exercise)).toEqual(350);
   });
   test("Should take Earth info of user who smokes and return their average life expectancy on Mercury.", () => {
-    human = new Human('21', 'female', 'smoker', 'yes');
+    human = new Human('21', 'female', 'smoker', 'workout');
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
     expect(human.mercuryExpectCalc(sex, smoke, exercise)).toEqual(337);
   });
   test("Should take Earth info of user who doesn't exercise and return their average life expectancy on Mercury.", () => {
-    human = new Human('21', 'female', 'non-smoker', 'no');
+    human = new Human('21', 'female', 'non-smoker', "don't workout");
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
@@ -92,21 +92,21 @@ describe('Human', () => {
     expect(human.venusExpectCalc(sex, smoke, exercise)).toEqual(145);
   });
   test("Should take Earth info of user who's male and return his average life expectancy on Venus.", () => {
-    human = new Human('21', 'male', 'non-smoker', 'yes');
+    human = new Human('21', 'male', 'non-smoker', 'workout');
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
     expect(human.venusExpectCalc(sex, smoke, exercise)).toEqual(135);
   });
   test("Should take Earth info of user who smokes and return their average life expectancy on Venus.", () => {
-    human = new Human('21', 'female', 'smoker', 'yes');
+    human = new Human('21', 'female', 'smoker', 'workout');
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
     expect(human.venusExpectCalc(sex, smoke, exercise)).toEqual(130);
   });
   test("Should take Earth info of user who doesn't exercise and return their average life expectancy on Venus.", () => {
-    human = new Human('21', 'female', 'non-smoker', 'no');
+    human = new Human('21', 'female', 'non-smoker', "don't workout");
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
@@ -122,21 +122,21 @@ describe('Human', () => {
     expect(human.marsExpectCalc(sex, smoke, exercise)).toEqual(47);
   });
   test("Should take Earth info of user who's male and return his average life expectancy on Mars.", () => {
-    human = new Human('21', 'male', 'non-smoker', 'yes');
+    human = new Human('21', 'male', 'non-smoker', 'workout');
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
     expect(human.marsExpectCalc(sex, smoke, exercise)).toEqual(44);
   });
   test("Should take Earth info of user who smokes and return their average life expectancy on Mars.", () => {
-    human = new Human('21', 'female', 'smoker', 'yes');
+    human = new Human('21', 'female', 'smoker', 'workout');
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
     expect(human.marsExpectCalc(sex, smoke, exercise)).toEqual(42);
   });
   test("Should take Earth info of user who doesn't exercise and return their average life expectancy on Mars.", () => {
-    human = new Human('21', 'female', 'non-smoker', 'no');
+    human = new Human('21', 'female', 'non-smoker', "don't workout");
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
@@ -152,21 +152,21 @@ describe('Human', () => {
     expect(human.jupiterExpectCalc(sex, smoke, exercise)).toEqual(7);
   });
   test("Should take Earth info of user who's male and return his average life expectancy on Jupiter.", () => {
-    human = new Human('21', 'male', 'non-smoker', 'yes');
+    human = new Human('21', 'male', 'non-smoker', 'workout');
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
     expect(human.jupiterExpectCalc(sex, smoke, exercise)).toEqual(6.5);
   });
   test("Should take Earth info of user who smokes and return their average life expectancy on Jupiter.", () => {
-    human = new Human('21', 'female', 'smoker', 'yes');
+    human = new Human('21', 'female', 'smoker', 'workout');
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
     expect(human.jupiterExpectCalc(sex, smoke, exercise)).toEqual(6.3);
   });
   test("Should take Earth info of user who doesn't exercise and return their average life expectancy on Jupiter.", () => {
-    human = new Human('21', 'female', 'non-smoker', 'no');
+    human = new Human('21', 'female', 'non-smoker', "don't workout");
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;

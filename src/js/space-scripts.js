@@ -33,7 +33,7 @@ export class Human {
     let exercise = this.exercise;
     sex == "male" ? lifeExpec -= 6 : lifeExpec;
     smoke == "smoker" ? lifeExpec -= 9 : lifeExpec;
-    exercise == "no" ? lifeExpec -= 5 : lifeExpec;
+    exercise == "don't workout" ? lifeExpec -= 5 : lifeExpec;
     return lifeExpec;
   }
   mercuryExpectCalc() {
@@ -43,7 +43,7 @@ export class Human {
     let exercise = this.exercise;
     sex == "male" ? lifeExpec -= 25 : lifeExpec;
     smoke == "smoker" ? lifeExpec -= 38 : lifeExpec;
-    exercise == "no" ? lifeExpec -= 21 : lifeExpec;
+    exercise == "don't workout" ? lifeExpec -= 21 : lifeExpec;
     return lifeExpec;
   }
   venusExpectCalc() {
@@ -53,7 +53,7 @@ export class Human {
     let exercise = this.exercise;
     sex == "male" ? lifeExpec -= 10 : lifeExpec;
     smoke == "smoker" ? lifeExpec -= 15 : lifeExpec;
-    exercise == "no" ? lifeExpec -= 8 : lifeExpec;
+    exercise == "don't workout" ? lifeExpec -= 8 : lifeExpec;
     return lifeExpec;
   }
   marsExpectCalc() {
@@ -63,7 +63,7 @@ export class Human {
     let exercise = this.exercise;
     sex == "male" ? lifeExpec -= 3 : lifeExpec;
     smoke == "smoker" ? lifeExpec -= 5 : lifeExpec;
-    exercise == "no" ? lifeExpec -= 3 : lifeExpec;
+    exercise == "don't workout" ? lifeExpec -= 3 : lifeExpec;
     return lifeExpec;
   }
   jupiterExpectCalc() {
@@ -73,7 +73,7 @@ export class Human {
     let exercise = this.exercise;
     sex == "male" ? lifeExpec -= 0.5 : lifeExpec;
     smoke == "smoker" ? lifeExpec -= 0.7 : lifeExpec;
-    exercise == "no" ? lifeExpec -= 0.4 : lifeExpec;
+    exercise == "don't workout" ? lifeExpec -= 0.4 : lifeExpec;
     return lifeExpec;
   }
 }
