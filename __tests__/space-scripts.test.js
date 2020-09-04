@@ -163,6 +163,6 @@ describe('Human', () => {
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
-    expect(human.jupiterExpectCalc(sex, smoke, exercise)).toEqual(6.2);
+    expect(human.jupiterExpectCalc(sex, smoke, exercise)).toEqual(6.3);
   });
 });
