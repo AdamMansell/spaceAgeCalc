@@ -3,7 +3,7 @@ describe('Human', () => {
 let human
 
   beforeEach(() => {
-    human = new Human('21', 'female', 'non-smoker', 'exerc');
+    human = new Human('21', 'female', 'non-smoker', 'yes');
   });
 
   test('Should take users Earth Age & return it in Mercury years', () => {
@@ -21,6 +21,12 @@ let human
   test('Should take users Earth Age & return it in Jupiter years', () => {
     let age = human.age;
     expect(human.jupiterCalc(age)).toEqual(2);
+  });
+  test("Should take user's Earth info and return their average life expectancy on Earth", () => {
+    let sex = human.sex;
+    let smoke = human.smoke;
+    let exercise = human.exercise;
+    expect(human.earthExpectCalc(sex, smoke, exercise)).toEqual(4);
   });
 
   
