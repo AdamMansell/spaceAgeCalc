@@ -6,14 +6,19 @@ export class Human {
     this.smoke = smoke;
     this.exercise = exercise;
   }
-  mercuryCalc(age) {
+  mercuryCalc() {
     let earthAge = parseInt(this.age);
     let mercuryAge = Math.round(earthAge / .24);
     return mercuryAge;
   }
-  venusCalc(age) {
+  venusCalc() {
     let earthAge = parseInt(this.age);
     let venusAge = Math.round(earthAge / .62);
     return venusAge;
+  }
+  marsCalc() {
+    let earthAge = parseInt(this.age);
+    let marsAge = Math.round(earthAge / 1.88);
+    return marsAge;
   }
 }

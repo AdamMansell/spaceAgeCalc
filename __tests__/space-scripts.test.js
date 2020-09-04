@@ -14,6 +14,10 @@ let human
     let age = human.age;
     expect(human.venusCalc(age)).toEqual(34);
   });
+  test('Should take users Earth Age & return it in Mars years', () => {
+    let age = human.age;
+    expect(human.marsCalc(age)).toEqual(10);
+  });
 
   
 });
