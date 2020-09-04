@@ -57,7 +57,7 @@ let human
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
-    expect(human.mercuryExpectCalc(sex, smoke, exercise)).toEqual(370);
+    expect(human.mercuryExpectCalc(sex, smoke, exercise)).toEqual(375);
   });
   
 });

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1599252316669" clover="3.2.0">
-  <project timestamp="1599252316669" name="All files">
+<coverage generated="1599252382041" clover="3.2.0">
+  <project timestamp="1599252382041" name="All files">
     <metrics statements="38" coveredstatements="38" conditionals="12" coveredconditionals="9" methods="7" coveredmethods="7" elements="57" coveredelements="54" complexity="0" loc="38" ncloc="38" packages="1" files="1" classes="1"/>
     <file name="space-scripts.js" path="/Users/adammansell/Desktop/Epicodus Projects/spaceAgeCalc/src/js/space-scripts.js">
       <metrics statements="38" coveredstatements="38" conditionals="12" coveredconditionals="9" methods="7" coveredmethods="7"/>
