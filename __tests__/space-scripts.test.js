@@ -8,7 +8,7 @@ let human
 
   test('Should take users Earth Age & return it in Mercury years', () => {
     let age = human.age;
-    expect(human.mercuryCalc(age)).toEqual(80);
+    expect(human.mercuryCalc(age)).toEqual(88);
   });
 
   
