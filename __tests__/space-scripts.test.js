@@ -16,7 +16,7 @@ let human
   });
   test('Should take users Earth Age & return it in Mars years', () => {
     let age = human.age;
-    expect(human.marsCalc(age)).toEqual(10);
+    expect(human.marsCalc(age)).toEqual(11);
   });
 
   
