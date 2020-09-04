@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1599252382041" clover="3.2.0">
-  <project timestamp="1599252382041" name="All files">
-    <metrics statements="38" coveredstatements="38" conditionals="12" coveredconditionals="9" methods="7" coveredmethods="7" elements="57" coveredelements="54" complexity="0" loc="38" ncloc="38" packages="1" files="1" classes="1"/>
+<coverage generated="1599252477024" clover="3.2.0">
+  <project timestamp="1599252477024" name="All files">
+    <metrics statements="38" coveredstatements="38" conditionals="12" coveredconditionals="10" methods="7" coveredmethods="7" elements="57" coveredelements="55" complexity="0" loc="38" ncloc="38" packages="1" files="1" classes="1"/>
     <file name="space-scripts.js" path="/Users/adammansell/Desktop/Epicodus Projects/spaceAgeCalc/src/js/space-scripts.js">
-      <metrics statements="38" coveredstatements="38" conditionals="12" coveredconditionals="9" methods="7" coveredmethods="7"/>
-      <line num="4" count="13" type="stmt"/>
-      <line num="5" count="13" type="stmt"/>
-      <line num="6" count="13" type="stmt"/>
-      <line num="7" count="13" type="stmt"/>
+      <metrics statements="38" coveredstatements="38" conditionals="12" coveredconditionals="10" methods="7" coveredmethods="7"/>
+      <line num="4" count="15" type="stmt"/>
+      <line num="5" count="15" type="stmt"/>
+      <line num="6" count="15" type="stmt"/>
+      <line num="7" count="15" type="stmt"/>
       <line num="10" count="1" type="stmt"/>
       <line num="11" count="1" type="stmt"/>
       <line num="12" count="1" type="stmt"/>
@@ -31,17 +31,17 @@
       <line num="38" count="4" type="cond" truecount="2" falsecount="0"/>
       <line num="39" count="4" type="cond" truecount="2" falsecount="0"/>
       <line num="40" count="4" type="stmt"/>
-      <line num="43" count="1" type="stmt"/>
-      <line num="44" count="1" type="stmt"/>
-      <line num="45" count="1" type="stmt"/>
-      <line num="46" count="1" type="stmt"/>
-      <line num="47" count="1" type="stmt"/>
-      <line num="48" count="1" type="stmt"/>
-      <line num="49" count="1" type="stmt"/>
-      <line num="50" count="1" type="cond" truecount="1" falsecount="1"/>
-      <line num="51" count="1" type="cond" truecount="1" falsecount="1"/>
-      <line num="52" count="1" type="cond" truecount="1" falsecount="1"/>
-      <line num="53" count="1" type="stmt"/>
+      <line num="43" count="2" type="stmt"/>
+      <line num="44" count="2" type="stmt"/>
+      <line num="45" count="2" type="stmt"/>
+      <line num="46" count="2" type="stmt"/>
+      <line num="47" count="2" type="stmt"/>
+      <line num="48" count="2" type="stmt"/>
+      <line num="49" count="2" type="stmt"/>
+      <line num="50" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="51" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="52" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="53" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>

@@ -59,5 +59,12 @@ let human
     let exercise = human.exercise;
     expect(human.mercuryExpectCalc(sex, smoke, exercise)).toEqual(375);
   });
+  test("Should take Earth info of user who's male and return his average life expectancy on Mercury.", () => {
+    human = new Human('21', 'male', 'non-smoker', 'yes');
+    let sex = human.sex;
+    let smoke = human.smoke;
+    let exercise = human.exercise;
+    expect(human.mercuryExpectCalc(sex, smoke, exercise)).toEqual(349);
+  });
   
 });
