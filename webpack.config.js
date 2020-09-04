@@ -15,7 +15,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'haiku',
+      title: 'space-age-project',
       template: './src/index.html',
       inject: 'body'
     })
