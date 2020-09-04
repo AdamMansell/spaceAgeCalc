@@ -20,7 +20,7 @@ let human
   });
   test('Should take users Earth Age & return it in Jupiter years', () => {
     let age = human.age;
-    expect(human.jupiterCalc(age)).toEqual(5);
+    expect(human.jupiterCalc(age)).toEqual(2);
   });
 
   
