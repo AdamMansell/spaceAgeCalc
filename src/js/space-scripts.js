@@ -21,4 +21,9 @@ export class Human {
     let marsAge = Math.round(earthAge / 1.88);
     return marsAge;
   }
+  jupiterCalc() {
+    let earthAge = parseInt(this.age);
+    let jupiterAge = Math.round(earthAge / 11.86);
+    return jupiterAge;
+  }
 }

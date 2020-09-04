@@ -37,7 +37,7 @@ ________________________________
 
 Spec: "Should take users Earth Age & return it in Jupiter years"
 - Input: "21"
-- Output: "1"<br>
+- Output: "2"<br>
 ________________________________
 
 Spec: "Should take user's Earth info and return their average life expectancy on Earth."
