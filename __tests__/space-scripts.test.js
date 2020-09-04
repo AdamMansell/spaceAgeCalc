@@ -140,6 +140,6 @@ let human
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
-    expect(human.marsExpectCalc(sex, smoke, exercise)).toEqual(43);
+    expect(human.marsExpectCalc(sex, smoke, exercise)).toEqual(44);
   });
 });
