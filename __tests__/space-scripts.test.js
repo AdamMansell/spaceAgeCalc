@@ -35,5 +35,12 @@ let human
     let exercise = human.exercise;
     expect(human.earthExpectCalc(sex, smoke, exercise)).toEqual(84);
   });
+  test("Should take Earth info of user who smokes and return their average life expectancy on Earth.", () => {
+    human = new Human('21', 'female', 'smoker', 'yes');
+    let sex = human.sex;
+    let smoke = human.smoke;
+    let exercise = human.exercise;
+    expect(human.earthExpectCalc(sex, smoke, exercise)).toEqual(84);
+  });
   
 });
