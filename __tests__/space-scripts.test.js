@@ -158,4 +158,11 @@ describe('Human', () => {
     let exercise = human.exercise;
     expect(human.jupiterExpectCalc(sex, smoke, exercise)).toEqual(6.5);
   });
+  test("Should take Earth info of user who smokes and return their average life expectancy on Jupiter.", () => {
+    human = new Human('21', 'female', 'smoker', 'yes');
+    let sex = human.sex;
+    let smoke = human.smoke;
+    let exercise = human.exercise;
+    expect(human.jupiterExpectCalc(sex, smoke, exercise)).toEqual(6.2);
+  });
 });
