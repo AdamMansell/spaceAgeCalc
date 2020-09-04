@@ -92,6 +92,14 @@ describe('Human', () => {
     let exercise = human.exercise;
     expect(human.mercuryExpectCalc(sex, smoke, exercise)).toEqual(354);
   });
+  test("Should take Earth info of user and decide if it is over life expectancy age. If they are over, return how many years over.", () => {
+    human = new Human('96', 'female', 'non-smoker', "don't workout");
+    let age = human.age;
+    let sex = human.sex;
+    let smoke = human.smoke;
+    let exercise = human.exercise;
+    expect(human.mercuryExpectCalc(age, sex, smoke, exercise)).toEqual(6);
+  });
 
   // Venus Life Expecs
 
