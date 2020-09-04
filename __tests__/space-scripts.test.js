@@ -22,6 +22,9 @@ let human
     let age = human.age;
     expect(human.jupiterCalc(age)).toEqual(2);
   });
+
+  // Earth Life Expecs
+
   test("Should take female user's Earth info and return her average life expectancy on Earth", () => {
     let sex = human.sex;
     let smoke = human.smoke;
@@ -50,10 +53,9 @@ let human
     expect(human.earthExpectCalc(sex, smoke, exercise)).toEqual(85);
   });
 
-  // Mercury Expecs 
+  // Mercury Life Expecs 
 
   test("Should take Earth info of user who's female and return her average life expectancy on Mercury.", () => {
-    human = new Human('21', 'female', 'non-smoker', 'yes');
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
@@ -81,4 +83,12 @@ let human
     expect(human.mercuryExpectCalc(sex, smoke, exercise)).toEqual(354);
   });
   
+  // Venus Life Expecs
+
+  test("Should take Earth info of user who's female and return her average life expectancy on Venus.", () => {
+    let sex = human.sex;
+    let smoke = human.smoke;
+    let exercise = human.exercise;
+    expect(human.venusExpectCalc(sex, smoke, exercise)).toEqual(146);
+  });
 });

@@ -52,4 +52,17 @@ export class Human {
     exercise == "no" ? lifeExpec -= 21 : lifeExpec;
     return lifeExpec;
   }
+  venusExpectCalc() {
+    let lifeExpec = 145;
+    let sex = this.sex;
+    console.log(sex);
+    let smoke = this.smoke;
+    console.log(smoke);
+    let exercise = this.exercise;
+    console.log(exercise);
+    sex == "male" ? lifeExpec -= 10 : lifeExpec;
+    smoke == "smoker" ? lifeExpec -= 15 : lifeExpec;
+    exercise == "no" ? lifeExpec -= 8 : lifeExpec;
+    return lifeExpec;
+  }
 }
