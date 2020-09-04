@@ -45,6 +45,11 @@ Spec: "Should take user's Earth info and return their average life expectancy on
 - Output: "90"<br>
 ________________________________
 
+Spec: "Should take user's Earth info and return their average life expectancy on Earth."
+- Input: "21, male, non-smoker, exercises"
+- Output: "84"<br>
+________________________________
+
 Spec: "Should take user's Earth info and return their average life expectancy on Mercury."
 - Input: "21, female, non-smoker, exercises"
 - Output: "375"<br>
