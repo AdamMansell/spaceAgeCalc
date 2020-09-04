@@ -15,10 +15,10 @@ $(document).ready(function () {
 
     let human = new Human(age, sex, smoke, exercise);
 
-    let mercuryAge = mercuryCalc(human, age);
-    let venusAge = venusCalc(human, age);
-    let marsAge = marsCalc(human, age);
-    let jupiterAge = jupiterCalc(human, age);
+    let mercuryAge = mercuryCalc(age);
+    let venusAge = venusCalc(age);
+    let marsAge = marsCalc(age);
+    let jupiterAge = jupiterCalc(age);
 
     let earthLifeExpect = earthExpectCalc(human);
     let mercuryLifeExpect = mercuryExpectCalc(human);
