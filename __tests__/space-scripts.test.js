@@ -47,7 +47,7 @@ let human
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
-    expect(human.earthExpectCalc(sex, smoke, exercise)).toEqual(81);
+    expect(human.earthExpectCalc(sex, smoke, exercise)).toEqual(85);
   });
   
 });
