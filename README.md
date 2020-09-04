@@ -21,23 +21,23 @@ Open your prefered internet browser and paste the file path to view the file.
 
 ## Specs
 Spec: "Should take users Earth Age & return it in Mercury years"
-- Input: 
-- Output: <br>
+- Input: "21"
+- Output: "87"<br>
 ________________________________
 
 Spec: "Should take users Earth Age & return it in Venus years"
-- Input:
-- Output: <br>
+- Input: "21"
+- Output: "33"<br>
 ________________________________
 
 Spec: "Should take users Earth Age & return it in Mars years"
-- Input: 
-- Output: <br>
+- Input: "21"
+- Output: "11"<br>
 ________________________________
 
 Spec: "Should take users Earth Age & return it in Jupiter years"
-- Input: 
-- Output: <br>
+- Input: "21"
+- Output: "1"<br>
 ________________________________
 
 Spec: 
