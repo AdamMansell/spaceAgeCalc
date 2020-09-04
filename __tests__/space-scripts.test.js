@@ -2,23 +2,23 @@ import { Human } from '../src/js/space-scripts.js';
 describe('Human', () => {
   let human
 
-  beforeEach(() => {
-    human = new Human('21', 'female', 'non-smoker', 'workout');
-  });
-
   test('Should take users Earth Age & return it in Mercury years', () => {
+    human = new Human('21', 'female', 'non-smoker', 'workout');
     let age = human.age;
     expect(human.mercuryCalc(age)).toEqual(88);
   });
   test('Should take users Earth Age & return it in Venus years', () => {
+    human = new Human('21', 'female', 'non-smoker', 'workout');
     let age = human.age;
     expect(human.venusCalc(age)).toEqual(34);
   });
   test('Should take users Earth Age & return it in Mars years', () => {
+    human = new Human('21', 'female', 'non-smoker', 'workout');
     let age = human.age;
     expect(human.marsCalc(age)).toEqual(11);
   });
   test('Should take users Earth Age & return it in Jupiter years', () => {
+    human = new Human('21', 'female', 'non-smoker', 'workout');
     let age = human.age;
     expect(human.jupiterCalc(age)).toEqual(2);
   });
@@ -26,6 +26,7 @@ describe('Human', () => {
   // Earth Life Expecs
 
   test("Should take female user's Earth info and return her average life expectancy on Earth", () => {
+    human = new Human('21', 'female', 'non-smoker', 'workout');
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
@@ -52,10 +53,19 @@ describe('Human', () => {
     let exercise = human.exercise;
     expect(human.earthExpectCalc(sex, smoke, exercise)).toEqual(85);
   });
+  test("Should take Earth info of user and decide if it is over life expectancy age. If they are over, return how many years over.", () => {
+    human = new Human('96', 'female', 'non-smoker', "don't workout");
+    let age = human.age;
+    let sex = human.sex;
+    let smoke = human.smoke;
+    let exercise = human.exercise;
+    expect(human.earthExpectCalc(age, sex, smoke, exercise)).toEqual(85);
+  });
 
   // Mercury Life Expecs 
 
   test("Should take Earth info of user who's female and return her average life expectancy on Mercury.", () => {
+    human = new Human('21', 'female', 'non-smoker', 'workout');
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
@@ -86,6 +96,7 @@ describe('Human', () => {
   // Venus Life Expecs
 
   test("Should take Earth info of user who's female and return her average life expectancy on Venus.", () => {
+    human = new Human('21', 'female', 'non-smoker', 'workout');
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
@@ -116,6 +127,7 @@ describe('Human', () => {
   // Mars Life Expecs
 
   test("Should take Earth info of user who's female and return her average life expectancy on Mars.", () => {
+    human = new Human('21', 'female', 'non-smoker', 'workout');
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;
@@ -146,6 +158,7 @@ describe('Human', () => {
   // Jupiter Life Expecs
 
   test("Should take Earth info of user who's female and return her average life expectancy on Jupiter.", () => {
+    human = new Human('21', 'female', 'non-smoker', 'workout');
     let sex = human.sex;
     let smoke = human.smoke;
     let exercise = human.exercise;

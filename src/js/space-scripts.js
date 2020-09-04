@@ -28,13 +28,19 @@ export class Human {
   }
   earthExpectCalc() {
     let lifeExpec = 90;
+    let age = this.age;
     let sex = this.sex;
     let smoke = this.smoke;
     let exercise = this.exercise;
-    sex == "male" ? lifeExpec -= 6 : lifeExpec;
-    smoke == "smoker" ? lifeExpec -= 9 : lifeExpec;
-    exercise == "don't workout" ? lifeExpec -= 5 : lifeExpec;
-    return lifeExpec;
+    if (age > 90) {
+      let newLife = age - lifeExpec;
+      return newLife
+    } else {
+      sex == "male" ? lifeExpec -= 6 : lifeExpec;
+      smoke == "smoker" ? lifeExpec -= 9 : lifeExpec;
+      exercise == "don't workout" ? lifeExpec -= 5 : lifeExpec;
+      return lifeExpec;
+    }
   }
   mercuryExpectCalc() {
     let lifeExpec = 375;
