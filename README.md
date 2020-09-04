@@ -27,7 +27,7 @@ ________________________________
 
 Spec: "Should take users Earth Age & return it in Venus years"
 - Input: "21"
-- Output: "33"<br>
+- Output: "34"<br>
 ________________________________
 
 Spec: "Should take users Earth Age & return it in Mars years"

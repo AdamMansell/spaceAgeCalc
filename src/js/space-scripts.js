@@ -11,4 +11,9 @@ export class Human {
     let mercuryAge = Math.round(earthAge / .24);
     return mercuryAge;
   }
+  venusCalc(age) {
+    let earthAge = parseInt(this.age);
+    let venusAge = Math.round(earthAge / .62);
+    return venusAge;
+  }
 }

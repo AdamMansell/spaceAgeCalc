@@ -10,6 +10,10 @@ let human
     let age = human.age;
     expect(human.mercuryCalc(age)).toEqual(88);
   });
+  test('Should take users Earth Age & return it in Venus years', () => {
+    let age = human.age;
+    expect(human.venusCalc(age)).toEqual(30);
+  });
 
   
 });
