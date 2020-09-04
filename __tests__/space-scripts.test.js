@@ -1,6 +1,6 @@
 import { Human } from '../src/js/space-scripts.js';
 describe('Human', () => {
-let human
+  let human
 
   beforeEach(() => {
     human = new Human('21', 'female', 'non-smoker', 'yes');
@@ -82,7 +82,7 @@ let human
     let exercise = human.exercise;
     expect(human.mercuryExpectCalc(sex, smoke, exercise)).toEqual(354);
   });
-  
+
   // Venus Life Expecs
 
   test("Should take Earth info of user who's female and return her average life expectancy on Venus.", () => {
@@ -141,5 +141,14 @@ let human
     let smoke = human.smoke;
     let exercise = human.exercise;
     expect(human.marsExpectCalc(sex, smoke, exercise)).toEqual(44);
+  });
+
+  // Jupiter Life Expecs
+
+  test("Should take Earth info of user who's female and return her average life expectancy on Jupiter.", () => {
+    let sex = human.sex;
+    let smoke = human.smoke;
+    let exercise = human.exercise;
+    expect(human.jupiterExpectCalc(sex, smoke, exercise)).toEqual(8);
   });
 });

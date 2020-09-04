@@ -66,4 +66,14 @@ export class Human {
     exercise == "no" ? lifeExpec -= 3 : lifeExpec;
     return lifeExpec;
   }
+  jupiterExpectCalc() {
+    let lifeExpec = 7;
+    let sex = this.sex;
+    let smoke = this.smoke;
+    let exercise = this.exercise;
+    sex == "male" ? lifeExpec -= 0.5 : lifeExpec;
+    smoke == "smoker" ? lifeExpec -= 0.7 : lifeExpec;
+    exercise == "no" ? lifeExpec -= 0.4 : lifeExpec;
+    return lifeExpec;
+  }
 }
