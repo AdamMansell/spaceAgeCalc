@@ -1,4 +1,4 @@
-import { Human, mercuryCalc, venusCalc, marsCalc, jupiterCalc, earthExpectCalc, mercuryExpectCalc, venusExpectCalc, marsExpectCalc, jupiterExpectCalc } from "./js/space-scripts.js";
+import Human from "./js/space-scripts.js";
 import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,16 +15,16 @@ $(document).ready(function () {
 
     let human = new Human(age, sex, smoke, exercise);
 
-    let mercuryAge = mercuryCalc(age);
-    let venusAge = venusCalc(age);
-    let marsAge = marsCalc(age);
-    let jupiterAge = jupiterCalc(age);
+    let mercuryAge = human.mercuryCalc(age);
+    let venusAge = human.venusCalc(age);
+    let marsAge = human.marsCalc(age);
+    let jupiterAge = human.jupiterCalc(age);
 
-    let earthLifeExpect = earthExpectCalc(human);
-    let mercuryLifeExpect = mercuryExpectCalc(human);
-    let venusLifeExpect = venusExpectCalc(human);
-    let marsLifeExpect = marsExpectCalc(human);
-    let jupiterLifeExpect = jupiterExpectCalc(human);
+    let earthLifeExpect = human.earthExpectCalc(human);
+    let mercuryLifeExpect = human.mercuryExpectCalc(human);
+    let venusLifeExpect = human.venusExpectCalc(human);
+    let marsLifeExpect = human.marsExpectCalc(human);
+    let jupiterLifeExpect = human.jupiterExpectCalc(human);
 
     let resSentence = `You said you were ${$('#age').val()} years old, and that you identify as ${$('#sex').val()}. Other than that we considered the fact that you are a ${$('#smoke').val()}, and that you ${$('#exercise').val()}. With this information, our top astro-physicists have calculated the following results for you: `;
 

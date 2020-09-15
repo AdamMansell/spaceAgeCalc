@@ -1,5 +1,5 @@
 
-export class Human {
+export default class Human {
   constructor(age, sex, smoke, exercise) {
     this.age = age;
     this.sex = sex;
@@ -34,7 +34,7 @@ export class Human {
     let exercise = this.exercise;
     if (age > 90) {
       let newLife = age - lifeExpec;
-      return newLife
+      return newLife;
     } else {
       sex == "male" ? lifeExpec -= 6 : lifeExpec;
       smoke == "smoker" ? lifeExpec -= 9 : lifeExpec;
@@ -50,7 +50,7 @@ export class Human {
     let exercise = this.exercise;
     if (age > 375) {
       let newLife = age - lifeExpec;
-      return newLife
+      return newLife;
     } else {
       sex == "male" ? lifeExpec -= 25 : lifeExpec;
       smoke == "smoker" ? lifeExpec -= 38 : lifeExpec;
